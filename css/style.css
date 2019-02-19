@@ -1,0 +1,206 @@
+body {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+body .wrapper-page {
+  margin: 0 auto;
+}
+body .wrapper-page header {
+  height: 885px;
+  -webkit-clip-path: polygon(0% 100%, 100% 75%, 100% 0, 0% 0%);
+}
+body .wrapper-page header .bg-header {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url('../img/hero.jpg') center center no-repeat;
+  background-size: cover;
+}
+body .wrapper-page header .bg-header:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #EFAB4B, #D87843, #BB4343);
+  opacity: 0.8;
+}
+body .wrapper-page header .bg-header .header-text {
+  color: #fff;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+body .wrapper-page header .bg-header .header-text h1 {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  margin: 0;
+}
+body .wrapper-page header .bg-header .header-text hr {
+  background: #fff;
+  width: 66px;
+  height: 1px;
+  margin: 40px auto 45px;
+  text-align: center;
+}
+body .wrapper-page header .bg-header .header-text p {
+  margin: 0;
+  font-size: 21px;
+  line-height: 30px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  width: 620px;
+}
+body .wrapper-page .some-of-our-work {
+  text-align: center;
+}
+body .wrapper-page .some-of-our-work h2 {
+  color: #000;
+  text-align: center;
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+body .wrapper-page .some-of-our-work hr {
+  background: #D87843;
+  width: 80px;
+  height: 1px;
+  margin: 65px auto 80px;
+  text-align: center;
+}
+body .wrapper-page .some-of-our-work .middel-img {
+  margin: 0 25px;
+}
+body .wrapper-page .some-of-our-work .img-cotent {
+  position: relative;
+  display: inline-block;
+}
+body .wrapper-page .some-of-our-work .img-cotent.margin-25 {
+  margin: 0 25px;
+}
+body .wrapper-page .some-of-our-work .img-cotent .text-contents {
+  z-index: 9;
+  color: #fff;
+  height: 420px;
+  width: 370px;
+}
+body .wrapper-page .some-of-our-work .img-cotent .text-contents div {
+  position: absolute;
+  display: none;
+}
+body .wrapper-page .some-of-our-work .img-cotent .text-contents .text-box {
+  display: block;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+body .wrapper-page .some-of-our-work .img-cotent .text-contents .text-box .title-hover {
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 24px;
+}
+body .wrapper-page .some-of-our-work .img-cotent .text-contents .text-box .sub-title-hover {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 21px;
+}
+body .wrapper-page .some-of-our-work .img-cotent .text-contents .text-box hr {
+  background: #D87843;
+  width: 60px;
+  height: 2px;
+  margin: 30px auto 20px;
+  text-align: center;
+}
+body .wrapper-page .some-of-our-work .img-cotent .text-contents.text-contents-1 {
+  background: url('../img/pic01.jpg') center center no-repeat;
+}
+body .wrapper-page .some-of-our-work .img-cotent .text-contents.text-contents-2 {
+  background: url('../img/pic02.jpg') center center no-repeat;
+}
+body .wrapper-page .some-of-our-work .img-cotent .text-contents.text-contents-3 {
+  background: url('../img/pic03.jpg') center center no-repeat;
+}
+body .wrapper-page .some-of-our-work .img-cotent .text-contents:hover:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #222222;
+  opacity: 0.8;
+}
+body .wrapper-page .some-of-our-work .show-more {
+  border: 3px solid black;
+  color: #BB4343;
+  background: #fff;
+  padding: 10px 100px;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin: 80px 0;
+  outline: none;
+}
+body .wrapper-page .why-choose-us {
+  background: #F7F7F7;
+  padding: 70px 0 60px 0;
+}
+body .wrapper-page .why-choose-us .choose-us-title {
+  color: #000;
+  text-align: center;
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 30px;
+  padding: 0 0 70px 0;
+}
+body .wrapper-page .why-choose-us hr {
+  background: #D87843;
+  width: 60px;
+  height: 2px;
+  margin: 0 auto;
+  text-align: center;
+}
+body .wrapper-page .why-choose-us .content-text {
+  text-align: center;
+  font-size: 21px;
+  line-height: 30px;
+  font-family: 'Roboto';
+  margin: 80px auto;
+  width: 60%;
+  font-weight: 300;
+}
+body .wrapper-page .why-choose-us .img-choose-us {
+  text-align: center;
+}
+body .wrapper-page .why-choose-us .img-choose-us .imgc {
+  display: inline-block;
+  text-align: center;
+}
+body .wrapper-page .why-choose-us .img-choose-us .imgc.margin-120 {
+  margin: 0 120px;
+}
+body .wrapper-page .why-choose-us .img-choose-us .imgc p {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+body .wrapper-page footer {
+  background: #222;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160px;
+}
+body .wrapper-page footer .white {
+  color: #fff;
+}
+body .wrapper-page footer .orange {
+  color: #D87843;
+}

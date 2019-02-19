@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>openPage</title>
+</head>
+<body>
+    <div class="wrapper-page">
+        <header>
+            <div class="bg-header">
+                <div class="header-text">
+                    <h1>we`ve got the talent</h1>
+                    <hr>
+                    <p>Lorem Ipsum, and more recently with desktop 
+                        publishing software like Aldus PageMaker.</p>
+                </div>
+            </div>
+        </header>
+        <section class="some-of-our-work">
+            <h2 class="title-sction-2">some of our work</h2>
+            <hr>
+            <div>
+                <div class="img-cotent">
+                    <div class="text-contents text-contents-1">
+                        <div>
+                            <p class="title-hover">NETWORK</p>
+                            <p class="sub-title-hover">Facbook</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-cotent margin-25">
+                    <div class="text-contents text-contents-2">
+                        <div>
+                            <p class="title-hover">WEB DEVELOP</p>
+                            <p class="sub-title-hover">Html/Css</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-cotent">
+                    <div class="text-contents text-contents-3">
+                        <div>
+                            <p class="title-hover">MOBILE UI</p>
+                            <p class="sub-title-hover">Google Mail</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="show-more">Show me more</button>
+        </section>
+        <section>
+            <div class="why-choose-us">
+                <div class="choose-us-title">
+                    WHY CHOOSE US
+                </div>
+                <hr>
+                <p class="content-text">Temporibus autem quibusdam et aut officiis debitis aut rerum 
+                    necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. 
+                </p>
+                <div class="img-choose-us">
+                    <div class="imgc">
+                        <img src="img/mobile.svg">
+                        <p>App Design</p>
+                    </div>
+                    <div class="imgc margin-120">
+                        <img src="img/tablet.svg">
+                        <p>Responsive Layout</p>
+                    </div>
+                    <div class="imgc">
+                        <img src="img/laptop.svg">
+                        <p>Pixel Perfect Design</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <span class="white">2017 	&copy;</span>
+            <span class="orange">GOT TALENT Agency.</span>
+        </footer>
+    </div>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+$('.text-contents').mouseover(function(){
+    $(this).find('div').addClass('text-box');
+})
+
+$('.text-contents').mouseleave(function(){
+    $(this).find('div').removeClass('text-box');
+})
+</script>
+</body>
+</html>
